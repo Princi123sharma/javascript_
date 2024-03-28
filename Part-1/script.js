@@ -74,3 +74,36 @@ const calculator = (a, b, operator) => {
 // calculator(2,4,"-");
 // console.log(calculator(10,0,"/"));
 console.log(calculator(10, 10, "%"));
+
+
+//reverse the string without using the inbuilt reverse method
+
+let reverse=(str)=>{
+    let number="";
+          for(let i=str.length-1;i>=0;i--)  {
+           number= number + str[i];
+          
+          }
+          return number;
+}
+
+
+console.log(reverse("princi sharma"));
+
+
+//check the given string is palindrome or not 
+
+let ispalindrome=(str)=>{
+    let reverse="";
+    for(let i=str.length-1;i>=0;i--){
+        reverse=reverse+str[i];
+    }
+   
+    if(reverse===str){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(ispalindrome("pihu"));
