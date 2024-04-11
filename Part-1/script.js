@@ -107,3 +107,7 @@ let ispalindrome=(str)=>{
     }
 }
 console.log(ispalindrome("pihu"));
+
+//Arrays 
+
+
